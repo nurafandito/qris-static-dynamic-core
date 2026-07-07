@@ -1,5 +1,5 @@
 {
-  "name": "qris-static-dynamic-core",
+  "name": "@nurafandito/qris-static-dynamic-core",
   "version": "0.1.0",
   "description": "QRIS static to dynamic converter core (parser, validator, converter, CRC16)",
   "type": "module",
@@ -31,6 +31,9 @@
     "url": "https://github.com/nurafandito/qris-static-dynamic-core/issues"
   },
   "homepage": "https://github.com/nurafandito/qris-static-dynamic-core#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "typescript": "^6.0.2"
   }

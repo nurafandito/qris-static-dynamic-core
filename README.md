@@ -5,13 +5,13 @@ Parse, validate, and convert Indonesian QRIS (Quick Response Code Indonesian Sta
 ## Install
 
 ```
-npm install qris-static-dynamic-core
+npm install @nurafandito/qris-static-dynamic-core
 ```
 
 ## Usage
 
 ```ts
-import { convertQRIS, validateQRIS, parseQRIS } from "qris-static-dynamic-core";
+import { convertQRIS, validateQRIS, parseQRIS } from "@nurafandito/qris-static-dynamic-core";
 
 const staticQris = "00020101021226340013ID.CO.EXAMPLE...";
 
